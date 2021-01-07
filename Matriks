@@ -1,0 +1,15 @@
+#Program ini dibuat oleh Sulas Sri
+print("=====MATRIKS ORDO 3X3=====")
+print("")
+a = int(input("Masukkan angka pertama : "))
+b = int(input("Masukkan angka kedua : "))
+c = int(input("Masukkan angka ketiga : "))
+d = int(input("Masukkan angka keempat : "))
+e = int(input("Masukkan angka kelima : "))
+f = int(input("Masukkan angka keenam : "))
+g = int(input("Masukkan angka ketujuh : "))
+h = int(input("Masukkan angka kedelapan : "))
+i = int(input("Masukkan angka kesembilan : "))
+import numpy as np
+x = np.array([(a,b,c), (d,e,f), (g,h,i)])
+print(x)
